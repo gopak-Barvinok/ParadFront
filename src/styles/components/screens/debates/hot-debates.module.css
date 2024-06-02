@@ -1,0 +1,12 @@
+.hot_debates {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  overflow-x: scroll;
+  padding-bottom: 10px;
+  transform: rotateX(180deg);
+}
+
+.hot_debates::-webkit-scrollbar {
+  height: 5px;
+}
