@@ -10,6 +10,7 @@ import {
   SetIsHotDisputeForm,
   SetStatusDisputeForm,
   UpdateUriForDisputeForm,
+  CreateDisputeForm
 } from "./module/DisputeForms";
 import {
   SetPARADContractForm,
@@ -33,6 +34,7 @@ export default function MasterForm() {
       <RenounceRoleForm />
       <SetDisputePointForm />
       <SetStatusDisputeForm />
+      <CreateDisputeForm/>
       <SetIsHotDisputeForm />
       <UpdateUriForDisputeForm />
       <SetRefValueForm />

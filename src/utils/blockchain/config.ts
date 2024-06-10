@@ -5,7 +5,7 @@ import * as wallets from "@rainbow-me/rainbowkit/wallets";
 import { createConfig, http } from "wagmi";
 import { bsc } from "wagmi/chains";
 
-const walletConnectProjectId = process.env.NEXT_PUBLIC_PROJECT_ID || "";
+const walletConnectProjectId = "198caf624b6ddc452dc34e8de5bf83f3";
 
 const connectors = connectorsForWallets(
   [
